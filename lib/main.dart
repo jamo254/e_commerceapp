@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
       routes: {
-         "/": ((context) => HomePage())
+         "/": (context) => HomePage()
+         "cartPage": (context) => CartPage()
       },
     );
   }
